@@ -1,3 +1,21 @@
+div.banner {
+    background-color: whitesmoke;
+    width: 100%;
+    float: left;
+}
+
+div.banner-inside {
+    width: 960px;
+    margin: 0 auto;
+}
+
+div.banner-links {
+    background-color: whitesmoke;
+    width: 33.3%;
+    float: right;
+    margin: 3% 0 0 0;
+}
+
 h1.name {
     color: whitesmoke;
     background: #4aaaa5;
@@ -9,44 +27,45 @@ h1.name {
     padding: 10px 0 10px 0;
 }
 
+div.content {
+    width: 100%;
+    float: left;
+}
+
+div.content-inside {
+    background-color: whitesmoke;
+    width: 960px;
+    margin: 0 auto;
+}
+
+h1.content-header {
+    color: #4aaaa5;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    padding: 15px;
+}
+
+div.content-picture-description {
+    background-color: whitesmoke;
+    width: 100%;
+}
+
+img.content-picture {
+    width: 25%;
+    height: 15%;
+    padding: 15px;
+    float: left;
+}
+
 p {
     color: #777777;
+    padding: 15px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 a {
     color: #777777;
     background-color: whitesmoke;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     width: 33.3%;
-    float: left;
-}
-
-div.main {
-    width: 960px;
-    float: left;
-}
-
-div.banner {
-    background-color: whitesmoke;
-    width: 100%;
-    float: left;
-}
-
-div.banner-inside {
-    background-color: rebeccapurple;
-    width: 960px;
-    height: 100%;
-    margin: 0 auto;
-}
-
-div.banner-links {
-    background-color: whitesmoke;
-    width: 33.3%;
-    float: right;
-    margin: 3% 0 0 0;
-}
-
-div.sides {
-    background: blue;
-    width: 960px;
     float: left;
 }
