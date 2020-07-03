@@ -4,49 +4,61 @@
         <meta charset="utf-8">
         <meta name="viewport">
         <meta lang="en">
+
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
         <title>Dunkels' Portfolio</title>
     </head>
 
     <body>
+
         <!-- Banner -->
-        <div>
-            <h1>
-                Dunkel the first
-            </h1>
-            <a href="index.html">About</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="contact.html">Contact</a>
+        <div class="banner">
+            <div class="banner-inside">
+                <h1 class="name">
+                    Dunkel the first
+                </h1>
+                <div class="banner-links">
+                    <a class="links" href="index.html">About</a>
+                    <a class="links" href="portfolio.html">Portfolio</a>
+                    <a class="links" href="contact.html">Contact</a>
+                </div>
+            </div>
         </div>
 
 
+
+
         <!-- Content -->
-        <div>
-            <h1>
-                Contact
-            </h1>
-            <div>
-                <div>Name</div>
+        <div class="content">
+            <div class="content-inside">
+                <h1 class="content-header">
+                    Contact
+                </h1>
                 <div>
-                    <input type="text" name="name-value" maxlength="255" value="">
-                </div>
+                    <div>Name</div>
+                    <div>
+                        <input type="text" name="name-value" maxlength="255" value="">
+                    </div>
 
-                <div>Email address</div>
-                <div>
-                    <input type="text" name="email-value" maxlength="255" value="">
-                </div>
+                    <div>Email address</div>
+                    <div>
+                        <input type="text" name="email-value" maxlength="255" value="">
+                    </div>
 
-                <div>Message</div>
-                <div>
-                    <textarea name="message-value"></textarea>
+                    <div>Message</div>
+                    <div>
+                        <textarea name="message-value"></textarea>
+                    </div>
+                    
+                    <input type="button" onclick="ApplySend();" name="send-button" value="Submit">
                 </div>
-                
-                <input type="button" onclick="ApplySend();" name="send-button" value="Submit">
             </div>
         </div>
 
         <!-- Footer -->
-        <div>
-            <span> Copyright </span>
+        <div class="footer">
+            <span class="footer-message"> Copyright </span>
         </div>
     </body>
 </html>
