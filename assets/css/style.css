@@ -148,7 +148,15 @@ img.portfolio-images {
     padding: 15px;
 }
 
-/* Centered text */
+
+img.portfolio-images:hover  {
+    -ms-transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    -o-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+}
+
 div.text-image {
     background: #4aaaa5;
     padding: 10px;
@@ -160,6 +168,14 @@ div.text-image {
 
     text-align: center;
     text-decoration: none;
+}
+
+div.text-image:hover {
+    -ms-transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    -o-transform: rotate(-10deg);
+    transform: rotate(-10deg);
 }
 
 a.images {
