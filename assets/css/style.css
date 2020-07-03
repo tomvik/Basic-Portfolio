@@ -78,6 +78,7 @@ a.links {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     width: 33.3%;
     float: left;
+    text-decoration: none;
 }
 
 a.links:hover { color: #4882B8; }
@@ -126,4 +127,43 @@ input[type=button] {
 
 input[type=button]:hover {
     background-color: #4882B8;
+}
+
+div.column {
+    width: 50%;
+    float: left;
+}
+  
+  /* Clearfix (clear floats) */
+div.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+img.portfolio-images {
+    position: relative;
+    width: 50%;
+    height: 50%;
+    padding: 15px;
+}
+
+/* Centered text */
+div.text-image {
+    background: #4aaaa5;
+    padding: 10px;
+
+    position: relative; 
+    bottom: 70px;
+    left: 15px;
+    width: 46%; 
+
+    text-align: center;
+    text-decoration: none;
+}
+
+a.images {
+    color: #ffffff;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    text-decoration: none;
 }
