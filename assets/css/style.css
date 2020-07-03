@@ -1,7 +1,15 @@
+div.main-body {
+    background-image: url('../images/gravel.png');
+    width: 100vw;
+    height: 100vh;
+}
+
 div.banner {
-    background-color: whitesmoke;
-    width: 100%;
+    background-color: #ffffff;
+    width: 100vw;
     float: left;
+    border: 0 0 5px 0;
+    border-bottom: 1px solid #dddddd;
 }
 
 div.banner-inside {
@@ -10,14 +18,14 @@ div.banner-inside {
 }
 
 div.banner-links {
-    background-color: whitesmoke;
+    background-color: #ffffff;
     width: 33.3%;
     float: right;
     margin: 3% 0 0 0;
 }
 
 h1.name {
-    color: whitesmoke;
+    color: #ffffff;
     background: #4aaaa5;
     font-family: 'Georgia', 'Times New Roman', Times, serif;
     float: left;
@@ -29,11 +37,12 @@ h1.name {
 
 div.content {
     width: 100%;
+    margin: 10px 0 0 0;
     float: left;
 }
 
 div.content-inside {
-    background-color: whitesmoke;
+    background-color: #ffffff;
     width: 960px;
     margin: 0 auto;
 }
@@ -41,11 +50,13 @@ div.content-inside {
 h1.content-header {
     color: #4aaaa5;
     font-family: 'Georgia', 'Times New Roman', Times, serif;
-    padding: 15px;
+    padding: 10px 0 10px 0;
+    margin: 15px;
+    border-bottom: 3px solid #dddddd;
 }
 
 div.content-picture-description {
-    background-color: whitesmoke;
+    background-color: #ffffff;
     width: 100%;
 }
 
@@ -64,7 +75,7 @@ p {
 
 a {
     color: #777777;
-    background-color: whitesmoke;
+    background-color: #ffffff;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     width: 33.3%;
     float: left;
