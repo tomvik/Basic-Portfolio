@@ -1,14 +1,14 @@
-div.main-body {
+html, body {
+    height: 100%;
+    margin: 0;
     background-image: url('../images/gravel.png');
-    width: 100vw;
-    height: 100vh;
 }
 
 div.banner {
     background-color: #ffffff;
     width: 100vw;
-    float: left;
-    border: 0 0 5px 0;
+    max-width:100%;
+    height: 10%;
     border-bottom: 1px solid #dddddd;
 }
 
@@ -32,13 +32,12 @@ h1.name {
     width: 33.3%;
     margin: 20px 0 0 0;
     text-align: center;
-    padding: 10px 0 10px 0;
+    padding: 10px 0 6px 0;
 }
 
 div.content {
     width: 100%;
-    margin: 10px 0 0 0;
-    float: left;
+    margin: 2% 0 120px 0;
 }
 
 div.content-inside {
@@ -79,4 +78,20 @@ a {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     width: 33.3%;
     float: left;
+}
+
+div.footer {
+    position: relative;
+    background-color: #666666;
+    width: 100vw;
+    max-width:100%;
+    max-height: 8%;
+    min-height: 8%;
+    border-top: 8px solid #4aaaa5;
+    text-align: center;
+}
+
+span.footer-message {
+    position: absolute;
+    bottom: 0;
 }
