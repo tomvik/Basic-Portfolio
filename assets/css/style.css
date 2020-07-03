@@ -1,0 +1,52 @@
+h1.name {
+    color: whitesmoke;
+    background: #4aaaa5;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    float: left;
+    width: 33.3%;
+    margin: 20px 0 0 0;
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+
+p {
+    color: #777777;
+}
+
+a {
+    color: #777777;
+    background-color: whitesmoke;
+    width: 33.3%;
+    float: left;
+}
+
+div.main {
+    width: 960px;
+    float: left;
+}
+
+div.banner {
+    background-color: whitesmoke;
+    width: 100%;
+    float: left;
+}
+
+div.banner-inside {
+    background-color: rebeccapurple;
+    width: 960px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+div.banner-links {
+    background-color: whitesmoke;
+    width: 33.3%;
+    float: right;
+    margin: 3% 0 0 0;
+}
+
+div.sides {
+    background: blue;
+    width: 960px;
+    float: left;
+}
