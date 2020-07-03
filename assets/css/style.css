@@ -80,6 +80,8 @@ a.links {
     float: left;
 }
 
+a.links:hover { color: #4882B8; }
+
 div.footer {
     position: relative;
     background-color: #666666;
@@ -94,4 +96,34 @@ div.footer {
 span.footer-message {
     position: absolute;
     bottom: 0;
+}
+
+div.text-input {
+    padding: 0 15px 0 15px;
+}
+
+input[type=text] {
+    color: #777777;
+    width: 100%;
+    padding: 8px 20px;
+    box-sizing: border-box;
+}
+
+textarea {
+    color: #777777;
+    width: 100%;
+    padding: 80px 20px;
+    box-sizing: border-box;
+}
+
+input[type=button] {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 8px 20px 8px 20px;
+    margin: 15px;
+    border: #4aaaa5;
+}
+
+input[type=button]:hover {
+    background-color: #4882B8;
 }
